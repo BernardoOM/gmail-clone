@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.header__left {
+    padding: 0.525em;
+    display: flex;
+    align-items: center;
+    flex: 0.3;
+}
+
+.header__left > img {
+    object-fit: contain;
+    height: 25px;
+    margin-left: 0.3125em;
+}
+
+.header__middle {
+    margin: 0.3125em;
+    padding: 0.625em;
+    display: flex;
+    flex: 0.7;
+    align-items: center;
+    background-color: rgba(26, 115, 232, 0.1) !important;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.header__middle > .MuiSvgIcon-root {
+    color: gray;
+}
+
+.header__middle > input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    padding: 0.625em;
+    font-size: medium;
+}
+
+.header__right {
+    padding-right: 1.25em;
+    display: flex;
+    flex: 0.125;
+}
+
+.header__right > .MuiSvgIcon-root {
+    cursor: pointer;
+}
+
+.header__avatar {
+    cursor: pointer;
+}

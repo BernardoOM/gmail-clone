@@ -1,0 +1,22 @@
+.section {
+    padding: 0.9375em;
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    cursor: pointer;
+}
+
+.section > h4 {
+    font-size: 0.875rem;
+    margin-left: 0.9375em;
+}
+
+.section:hover {
+    background-color: whitesmoke;
+}
+
+.section__selected {
+    border-width: 3px !important;
+    border-bottom: 3px solid blue;
+    color: blue;
+}
