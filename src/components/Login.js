@@ -1,6 +1,6 @@
 import { Button } from "@mui/material"
 import React from "react"
-import { auth, provider } from "./firebase"
+import { auth, provider } from "../services/firebase"
 import { signInWithPopup } from "firebase/auth"
 import "./Login.css"
 import { useDispatch } from "react-redux"

@@ -1,16 +1,16 @@
 import React, { useEffect } from "react"
 import "./App.css"
-import Header from "./Header"
-import SideBar from "./SideBar"
+import Header from "./components/Header"
+import SideBar from "./components/SideBar"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Mail from "./Mail"
-import EmailList from "./EmailList"
-import SendMail from "./SendMail"
+import Mail from "./components/Mail"
+import EmailList from "./components/EmailList"
+import SendMail from "./components/SendMail"
 import { useDispatch, useSelector } from "react-redux"
 import { selectSendMessageIsOpen } from "./features/mailSlice"
 import { login, selectUser } from "./features/userSlice"
-import Login from "./Login"
-import { auth } from "./firebase"
+import Login from "./components/Login"
+import { auth } from "./services/firebase"
 
 function App() {
     const sendMessageIsOpen = useSelector(selectSendMessageIsOpen)
